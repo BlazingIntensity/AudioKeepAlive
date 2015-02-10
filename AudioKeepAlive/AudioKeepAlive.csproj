@@ -105,7 +105,7 @@
     <EmbeddedResource Include="Resources\Tray.ico" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\pink_001.wav" />
+    <None Include="Resources\pink_001.wav" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -123,6 +123,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\silent.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
